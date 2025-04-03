@@ -34,5 +34,11 @@ Se crea el archivo Kotlin.xml y se inserta lo siguiente:
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="screencomposable" value="@Composable&#10;fun $NAME$Screen() {&#10;    $NAME$ScreenContent()&#10;}&#10;&#10;@Composable&#10;private fun $NAME$ScreenContent() {&#10;    &#10;}" description="Make basic screen in Composable" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
 ```
